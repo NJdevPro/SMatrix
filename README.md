@@ -10,3 +10,5 @@ are needed (typically less than 20x20).
 Most operations are done on the stack so it should be reasonably fast.
 The code is simple enough to be easily extended as needed.
 It has been successfully been used in real time production environment.
+
+Published under MIT License.
