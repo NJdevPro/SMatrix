@@ -10,6 +10,7 @@ are needed (typically less than 20x20) and you don't want to embed a full fledge
 matrix library due to space constraints.
 Most operations are done on the stack so it should be reasonably fast.
 The code is simple enough to be easily extended as needed.
-It has been successfully been used in real time production environment.
+This has been successfully been used in hard real time production environment to replace
+Fortran code.
 
 Published under MIT License.
