@@ -1,5 +1,5 @@
 CC=g++
-CFLAGS=-I.
+CFLAGS=-Wall -I.
 DEPS = SMatrix.h
 OBJ = smatrix_test.o
 
@@ -9,8 +9,8 @@ OBJ = smatrix_test.o
 smatrix_test: $(OBJ)
 	$(CC) -o $@ $^ $(CFLAGS)
 
-check:
+check: smatrix_test
 	./smatrix_test
 
 clean:
-	rm *.o
+	rm *.o smatrix_test
